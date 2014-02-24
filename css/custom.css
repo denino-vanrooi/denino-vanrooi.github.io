@@ -17,5 +17,11 @@
 	text-align: center;
 }
 .content_style h1, h2, h3{
-	color: #0ba80b;
+	color: #F60;
+}
+footer {
+	text-align: center;
+	padding: 20px;
+	color: #CCC;
+	margin-top: 20px;
 }
