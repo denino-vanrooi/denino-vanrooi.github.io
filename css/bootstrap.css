@@ -4801,12 +4801,12 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse {
-  background-color: #222222;
-  border-color: #080808;
+  background-color: #0b215f;
+  border-color: #061747;
 }
 
 .navbar-inverse .navbar-brand {
-  color: #999999;
+  color: #02d5fb;
 }
 
 .navbar-inverse .navbar-brand:hover,
@@ -4820,7 +4820,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  color: #999999;
+  color: #14b9dc;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,
@@ -4833,7 +4833,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #ffffff;
-  background-color: #080808;
+  background-color: #051540;
 }
 
 .navbar-inverse .navbar-nav > .disabled > a,
@@ -4844,12 +4844,12 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse .navbar-toggle {
-  border-color: #333333;
+  border-color: #021345;
 }
 
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-  background-color: #333333;
+  background-color: #021345;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
