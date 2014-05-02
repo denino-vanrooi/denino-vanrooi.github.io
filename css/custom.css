@@ -25,3 +25,7 @@ footer {
 	color: #CCC;
 	margin-top: 20px;
 }
+.heading_text{
+	text-shadow: rgba(0,0,0,.8) 0 1px 0;
+	color: #09C;
+}
