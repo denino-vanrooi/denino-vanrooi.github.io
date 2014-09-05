@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #151516;
+}
+.showcase a{
+	font-size: 1em;
+	color: #94f3fc;
+	font-size: 1.7em;
+}
+.showcase h1,h3{
+	color: #ff89d1;	
+}
+.header{
+color: #000;
+}
+div.transbox{
+background-color: #fff;
+opacity: 0.5;
+}
+
+header p{
+background-color: #fff;
+opacity: 0.6;
+filter:alpha(opacity=60);
+}
+.header h1{
+color: #702fd1;
+font-family: Century Gothic;
+text-shadow: 2px 2px 8px #702fd1;
+
+}
+@font-face {
+	font-family: 'myFirstFont';
+	src: url('/fonts/sofia-regular.otf');
+	src: url('FileName.eot?#iefix') format('embedded-opentype'),
+		 url('FileName.woff') format('woff'),
+		 url('FileName.ttf') format('truetype'),
+		 url('FileName.svg#FontName') format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
+.headerimage{
+	background-image: url(../img/images/portfolioheader.jpg);
+	background-repeat: no-repeat;
+}
+.hireme a{
+color: #fd189f;
+}
