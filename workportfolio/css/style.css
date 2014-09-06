@@ -10,7 +10,8 @@ body {
 	font-size: 1.7em;
 }
 .showcase h1,h3{
-	color: #ff89d1;	
+	color: #ff89d1;
+	font-family: 'Cinzel', serif;
 }
 .header{
 color: #000;
@@ -25,11 +26,18 @@ background-color: #fff;
 opacity: 0.6;
 filter:alpha(opacity=60);
 }
-.header h1{
+
+.header{
+color: #fff;
+font-family: 'Calligraffitti', cursive;
+text-shadow: 2px 2px 8px #702fd1;
+}
+@media screen and (min-width: 768px){
+.header {
 color: #702fd1;
 font-family: Century Gothic;
 text-shadow: 2px 2px 8px #702fd1;
-
+}
 }
 @font-face {
 	font-family: 'myFirstFont';
