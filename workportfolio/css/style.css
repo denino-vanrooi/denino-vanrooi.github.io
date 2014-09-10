@@ -27,15 +27,23 @@ opacity: 0.6;
 filter:alpha(opacity=60);
 }
 
-.header{
+.header {
+font-family: Century Gothic;
+color: #fff;
+}
+.header h1{
 color: #fff;
 font-family: 'Calligraffitti', cursive;
 text-shadow: 2px 2px 8px #702fd1;
 }
 @media screen and (min-width: 768px){
 .header {
-color: #702fd1;
 font-family: Century Gothic;
+color: #000;
+}
+.header h1 {
+color: #702fd1;
+font-family: 'Calligraffitti', cursive;
 text-shadow: 2px 2px 8px #702fd1;
 }
 }
