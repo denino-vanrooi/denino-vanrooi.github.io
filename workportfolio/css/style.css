@@ -2,17 +2,22 @@
 /* CSS Document */
 
 body {
-	background-color: #151516;
+	background-color: #3c3f41;
 }
 .showcase a{
-	font-size: 1em;
 	color: #94f3fc;
-	font-size: 1.7em;
+	font-size: 1.8em;
+	font-weight: normal;
 }
-.showcase h1,h3{
+.showcase h1{
 	color: #ff89d1;
 	font-family: 'Cinzel', serif;
+	font-size: 4.0em;
 }
+.showcase dt{
+font-family: Century Gothic;
+}
+
 .header{
 color: #000;
 }
@@ -34,7 +39,6 @@ color: #fff;
 .header h1{
 color: #fff;
 font-family: 'Pacifico', cursive;
-text-shadow: 2px 2px 8px #fff;
 }
 @media screen and (min-width: 768px){
 .header {
@@ -43,19 +47,9 @@ color: #000;
 }
 .header h1 {
 color: #098499;
-text-shadow: 2px 2px 8px #777e83;
 }
 }
-@font-face {
-	font-family: 'myFirstFont';
-	src: url('/fonts/sofia-regular.otf');
-	src: url('FileName.eot?#iefix') format('embedded-opentype'),
-		 url('FileName.woff') format('woff'),
-		 url('FileName.ttf') format('truetype'),
-		 url('FileName.svg#FontName') format('svg');
-	font-style: normal;
-	font-weight: normal;
-}
+
 .headerimage{
 	background-image: url(../img/images/portfolioheader.jpg);
 	background-repeat: no-repeat;
