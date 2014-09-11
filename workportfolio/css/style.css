@@ -2,61 +2,98 @@
 /* CSS Document */
 
 body {
-	background-color: #3c3f41;
-}
-.showcase a{
-	color: #94f3fc;
-	font-size: 1.8em;
-	font-weight: normal;
-}
-.showcase h1{
-	color: #ff89d1;
-	font-family: 'Cinzel', serif;
-	font-size: 4.0em;
-}
-.showcase dt{
-font-family: Century Gothic;
+	background-color: #413f40;
+	background-image: url(../img/images/background.jpg);
+	background-repeat: no-repeat;
 }
 
 .header{
-color: #000;
-}
-div.transbox{
-background-color: #fff;
-opacity: 0.5;
+	color: #000;
 }
 
 header p{
-background-color: #fff;
-opacity: 0.6;
-filter:alpha(opacity=60);
+	background-color: #fff;
+	opacity: 0.6;
+	filter:alpha(opacity=60);
 }
 
 .header {
-font-family: Century Gothic;
-color: #fff;
+	font-family: Century Gothic;
+	color: #fff;
 }
 .header h1{
-color: #fff;
-font-family: 'Cinzel', serif;
+	color: #fff;
+	font-family: 'Playfair Display', serif;
 }
 @media screen and (min-width: 768px){
 .header {
-font-family: Century Gothic;
-color: #000;
+	font-family: Century Gothic;
+	color: #000;
 }
 .header h1 {
-color: #098499;
+	color: #098499;
 }
+}
+
+div.transbox{
+	background-color: #fff;
+	opacity: 0.5;
 }
 
 .headerimage{
 	background-image: url(../img/images/portfolioheader.jpg);
 	background-repeat: no-repeat;
 }
+
 .hireme a{
 color: #fd189f;
 }
+
+.navbar-brand-portfolio{
+font-size: 1.07em;
+padding-top:0px;
+}
+
+.navbar-brand-logo img{
+max-width:60%;
+height:auto;
+margin-right:0px;
+}
+
+@media screen and (min-width: 768px){
+.navbar-brand-portfolio{
+  float: left;
+  padding: 15px 15px;
+  font-size: 2em;
+  line-height: 20px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-transform:uppercase;
+}
+.navbar-brand-portfolio a{
+color: #fff;
+}
+.navbar-brand-logo img{
+max-width:100%;
+height:auto;
+}
+}
+
+.showcase a{
+	color: #94f3fc;
+	font-size: 1.8em;
+	font-weight: normal;
+}
+
+.showcase h1{
+	color: #ff89d1;
+	font-family: 'Cinzel', serif;
+	font-size: 4.0em;
+}
+
+.showcase dt{
+	font-family: Century Gothic;
+}
+
 .footer_style{
 color: #000;
 }
