@@ -4744,17 +4744,17 @@ textarea.input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 
-.navbar-default .navbar-toggle {
-  border-color: #dddddd;
+.navbar-header .navbar-toggle {
+  border-color: #413f40;
 }
 
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: #dddddd;
+.navbar-header .navbar-toggle:hover,
+.navbar-header .navbar-toggle:focus {
+  background-color: #fff;
 }
 
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #cccccc;
+.navbar-header .navbar-toggle .icon-bar {
+  background-color: #413f40;
 }
 
 .navbar-default .navbar-collapse,
@@ -5255,7 +5255,6 @@ a.list-group-item.active > .badge,
 	padding-bottom: 48px;
 	background-image: url(../img/images/portfolioheader.jpg);
 	background-repeat: no-repeat;
-	background-position: left;
 	}
   .container .jumbotron {
     padding-right: 60px;

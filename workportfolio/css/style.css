@@ -40,42 +40,29 @@ div.transbox{
 	opacity: 0.5;
 }
 
-.headerimage{
-	background-image: url(../img/images/portfolioheader.jpg);
-	background-repeat: no-repeat;
-}
-
 .hireme a{
   color: #fd189f;
 }
 
 .navbar-brand-portfolio{
-  font-size: 1.27em;
   float: left;
-  padding-top:0px;
+  font-size: 1.27em;  
   font-family: 'Yanone Kaffeesatz', sans-serif;
   text-transform:uppercase;
+  padding: 4px;
 }
 
-.navbar-brand-logo img{
-	max-width:60%;
-	height:auto;
-	margin-right:0px;
+.navbar-brand-logo{
+max-width:77px;
+margin-right:20px;
 }
 
 @media screen and (min-width: 768px){
 .navbar-brand-portfolio{
-  padding: 15px 15px;
-  font-size: 2em;
   line-height: 20px;
-
 }
 .navbar-brand-portfolio a{
 color: #fff;
-}
-.navbar-brand-logo img{
-max-width:100%;
-height:auto;
 }
 }
 
@@ -96,5 +83,5 @@ height:auto;
 }
 
 .footer_style{
-color: #000;
+color: #959494;
 }
