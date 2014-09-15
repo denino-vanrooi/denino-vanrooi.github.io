@@ -46,28 +46,29 @@ div.transbox{
 }
 
 .hireme a{
-color: #fd189f;
+  color: #fd189f;
 }
 
 .navbar-brand-portfolio{
-font-size: 1.07em;
-padding-top:0px;
+  font-size: 1.27em;
+  float: left;
+  padding-top:0px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-transform:uppercase;
 }
 
 .navbar-brand-logo img{
-max-width:60%;
-height:auto;
-margin-right:0px;
+	max-width:60%;
+	height:auto;
+	margin-right:0px;
 }
 
 @media screen and (min-width: 768px){
 .navbar-brand-portfolio{
-  float: left;
   padding: 15px 15px;
   font-size: 2em;
   line-height: 20px;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  text-transform:uppercase;
+
 }
 .navbar-brand-portfolio a{
 color: #fff;
@@ -86,7 +87,7 @@ height:auto;
 
 .showcase h1{
 	color: #ff89d1;
-	font-family: 'Cinzel', serif;
+	font-family: 'Playfair Display', serif;
 	font-size: 4.0em;
 }
 
